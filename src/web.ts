@@ -1,5 +1,5 @@
 import { WebPlugin } from '@capacitor/core';
-import { FirebaseCrashlyticsPlugin } from './definitions';
+import { FirebaseCrashlyticsPlugin, CrashlyticsUserOptions } from './definitions';
 
 export class FirebaseCrashlyticsWeb extends WebPlugin implements FirebaseCrashlyticsPlugin {
   constructor() {
