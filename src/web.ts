@@ -9,11 +9,6 @@ export class FirebaseCrashlyticsWeb extends WebPlugin implements FirebaseCrashly
     });
   }
 
-  async echo(options: { value: string }): Promise<{value: string}> {
-    console.log('ECHO', options);
-    return options;
-  }
-
   async crash(): Promise<void> {
     console.warn("Crashlytics.crash is not implemented on web");
   }

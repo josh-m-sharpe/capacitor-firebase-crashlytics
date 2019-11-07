@@ -11,7 +11,6 @@ export type CrashlyticsUserOptions = {
 };
 
 export interface FirebaseCrashlyticsPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
   crash(): Promise<void>;
   logUser(options: CrashlyticsUserOptions): Promise<void>;
 }
