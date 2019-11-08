@@ -3,7 +3,8 @@
 Capacitor plugin for [Firebase Crashlytics](https://firebase.google.com/docs/crashlytics/get-started).
 
 ```bash
-npm install capacitor-firebase-crashlytics
+~~npm install capacitor-firebase-crashlytics~~
+npm install https://github.com/josh-m-sharpe/capacitor-firebase-crashlytics.git
 npx cap update ios
 ```
 
