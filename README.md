@@ -3,7 +3,6 @@
 Capacitor plugin for [Firebase Crashlytics](https://firebase.google.com/docs/crashlytics/get-started).
 
 ```bash
-~~npm install capacitor-firebase-crashlytics~~
 npm install https://github.com/josh-m-sharpe/capacitor-firebase-crashlytics.git
 npx cap update ios
 ```
@@ -69,9 +68,9 @@ FirebaseCrashlytics.logUser({
 
 1. Open the [Firebase Crashlytics Get Started guide](https://firebase.google.com/docs/crashlytics/get-started?platform=ios)
 
-2. Follow Step 1.  Put your `GoogleService-Info.plist` here: `ios/App/App/GoogleService-Info.plist`
+2. Follow Step 1. Put your `GoogleService-Info.plist` here: `ios/App/App/GoogleService-Info.plist`
 
-3. Skip Step 2 - this plugin handles that for you.
+3. Skip Step 2. This plugin handles that for you.
 
 4. Follow Step 3 to add a new run script phase.
 
