@@ -41,7 +41,7 @@ FirebaseCrashlytics.logUser({
 ```
 ## Android setup
 
-1. Follow the Firebase Get Started guide and put your `google-services.json` here: `android/app/google-services.json`
+1. Follow the [Firebase Crashlytics Get Started guide](https://firebase.google.com/docs/crashlytics/get-started?platform=android) and put your `google-services.json` here: `android/app/google-services.json`
 
 2. Make the changes to your project level (`android/build.gradle`) and app level(`android/app/build.gradle`) files described in the Firebase Crashlytics docs [here](https://firebase.google.com/docs/crashlytics/get-started?platform=android).
 
@@ -67,7 +67,7 @@ FirebaseCrashlytics.logUser({
 
 ## iOS setup
 
-1. Open the [Firebase Crashlytics get started guide](https://firebase.google.com/docs/crashlytics/get-started?platform=ios)
+1. Open the [Firebase Crashlytics Get Started guide](https://firebase.google.com/docs/crashlytics/get-started?platform=ios)
 
 2. Follow Step 1.  Put your `GoogleService-Info.plist` here: `ios/App/App/GoogleService-Info.plist`
 
